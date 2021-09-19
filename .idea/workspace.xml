@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60dea8e-8a28-45f2-a3fd-2d60ea9e9a14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UserComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTypedSelector.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/taskReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/userReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/task.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action-creator/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserComponent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +44,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631539521035</updated>
-      <workItem from="1631539522421" duration="15320000" />
+      <workItem from="1631539522421" duration="19009000" />
+      <workItem from="1631722183129" duration="2417000" />
+      <workItem from="1632088054083" duration="2649000" />
     </task>
     <servers />
   </component>
