@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60dea8e-8a28-45f2-a3fd-2d60ea9e9a14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/action-creator/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/taskComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action-creator/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action-creator/task.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/taskReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/taskReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/task.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/task.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
       <updated>1631539521035</updated>
       <workItem from="1631539522421" duration="19009000" />
       <workItem from="1631722183129" duration="2417000" />
-      <workItem from="1632088054083" duration="2649000" />
+      <workItem from="1632088054083" duration="5909000" />
     </task>
     <servers />
   </component>
@@ -54,10 +58,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631653340293">
+    <state x="698" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632092658583">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="698" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1631653340293" />
+    <state x="698" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1632092658583" />
     <state x="690" y="273" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1631540204364">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

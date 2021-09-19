@@ -6,7 +6,9 @@ export interface ITask {
 }
 
 export interface taskState {
-    tasks: ITask[]
+    tasks: ITask[],
+    page: number,
+    limit: number,
     loading: boolean,
     error: string | null
 }
@@ -14,7 +16,8 @@ export interface taskState {
 export enum taskActionTypes {
     FETCH_TASK = "FETCH_TASK",
     FETCH_TASK_SUCCESS = "FETCH_TASK_SUCCESS",
-    FETCH_TASK_ERROR = "FETCH_TASK_ERROR"
+    FETCH_TASK_ERROR = "FETCH_TASK_ERROR",
+    SET_TASK_PAGE = "SET_TASK_PAGE"
 }
 
 export interface actionFetchTask {
@@ -32,4 +35,13 @@ export interface actionFetchTaskError {
     payload: string
 }
 
-export type taskAction =  actionFetchTask | actionFetchTaskSuccess | actionFetchTaskError;
+export interface actionSetTaskPage {
+    type: taskActionTypes.SET_TASK_PAGE,
+    payload: number
+}
+
+export type taskAction =
+    actionFetchTask
+    | actionFetchTaskSuccess
+    | actionFetchTaskError
+    | actionSetTaskPage;

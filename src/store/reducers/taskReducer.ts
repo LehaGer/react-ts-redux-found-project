@@ -2,6 +2,8 @@ import {taskAction, taskActionTypes, taskState} from "../../types/task";
 
 const defaultTaskState: taskState = {
     tasks: [],
+    page: 1,
+    limit: 10,
     loading: false,
     error: null
 };
@@ -12,21 +14,25 @@ export const taskReducer = (state: taskState = defaultTaskState, action: taskAct
 
         case taskActionTypes.FETCH_TASK:
             return {
-                tasks: [],
-                loading: true,
-                error: null
+                ...state,
+                loading: true
             };
         case taskActionTypes.FETCH_TASK_SUCCESS:
             return {
-                tasks: [],
+                ...state,
                 loading: false,
-                error: null
+                tasks: action.payload
             };
         case taskActionTypes.FETCH_TASK_ERROR:
             return {
-                tasks: [],
+                ...state,
                 loading: false,
                 error: action.payload
+            };
+        case taskActionTypes.SET_TASK_PAGE:
+            return {
+                ...state,
+                page: action.payload
             };
         default: return state;
 
